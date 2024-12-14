@@ -1,5 +1,5 @@
 # Ganga-Bhumi-Club
-Login/Signup page 
+Login/Signup page [ RECOMMEND TO USE FIREFOX BROWSERS ]
 Here is the link to open the website :-
 [ gangabhumiclub.42web.io ]
 
