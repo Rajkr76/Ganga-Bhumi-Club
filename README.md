@@ -5,7 +5,7 @@ Here is the link to open the website :-
     [ https://gangabhumiclub.42web.io/ ]
     
 OR,
-COPY THIS LINK AND PASTE TO BROWSER TO OPEN MY WEBSITE. 
+COPY THIS LINK [ gangabhumiclub.42web.io ] AND PASTE TO BROWSER TO OPEN MY WEBSITE. 
 
 YOU CAN ALSO VIEW THE PRIVIEW OF MY WEBSITE ATTACHED AS THE SCREENSHOT ALONG WITH THE ABOVE CODE.
 
