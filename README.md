@@ -1,8 +1,8 @@
 # Ganga-Bhumi-Club
-Login/Signup page [ RECOMMEND TO USE FIREFOX ]
+Login/Signup page 
 
 Here is the link to open the website :-    
-    [ gangabhumiclub.42web.io ]
+    [(https://gangabhumiclub.42web.io/]
 
 COPY THIS LINK AND PASTE TO BROWSER TO OPEN MY WEBSITE. 
 
