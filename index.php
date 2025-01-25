@@ -1,9 +1,9 @@
 <?php
 // Database connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "ganga_bhumi_club";
+$servername = "sql102.infinityfree.comt";
+$username = "if0_37914638";
+$password = "RVQeUoE50v";
+$dbname = "if0_37914638_ganga_bhumi_club";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -20,9 +20,25 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Validate input
             $name = isset($_POST['name']) ? trim($_POST['name']) : '';
             $email = isset($_POST['email']) ? trim($_POST['email']) : '';
-            $password = $password = isset($_POST['password']) ? trim($_POST['password']) : '';            ;
+       // Simulate password input from the user
+        $password = isset($_POST['password']) ? trim($_POST['password']) : '';
 
-            if (empty($name) || empty($email) || empty($_POST['password'])) {
+        if (!empty($password)) {
+                // Hash the password using bcrypt (this is what you'd store in a database)
+        $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+
+        // Simulate a login scenario where the user enters a password to be verified
+             $userInputPassword = isset($_POST['password']) ? trim($_POST['password']) : '';
+
+        // Verify the user's input password against the stored hashed password
+        if (password_verify($userInputPassword, $hashedPassword)) {
+        echo "Password is correct!";
+        } else {
+        echo "Invalid password.";
+        }
+            } else {
+        echo "Password is empty.";
+            }
                 echo "<script>alert('Please fill in all fields.');</script>";
             } else {
                 // Check if email already exists
